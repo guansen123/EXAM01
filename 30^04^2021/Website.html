@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: skyblue;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color:purple
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color:black;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+.card {
+      background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>王者榮耀</h1>
+  <p>King of Glory</p>
+</div>
+
+<div class="topnav">
+  <a href="https://pvp.qq.com/web201605/herolist.shtml">英雄資料</a>
+  <a href="https://pvp.qq.com/cp/a20170829bbgxsm/index.html">版本介紹</a>
+  <a href="https://pvp.qq.com/web201605/introduce.shtml">遊戲介紹</a>
+  <a href="https://pvp.qq.com/match/kpl/index.shtml" style="float:right">KPL職業聯賽</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>李白攻略</h2>
+      <h5>銘文:7狩獵 3奪萃 10鷹眼 8異變 2紅月</h5>
+      <a target="_blank" href="wangzhe/libai.jpg">
+      <img src="wangzhe/libai.jpg" style="height:200px;"></a>
+      <p>打野玩法思路</p>
+      <p>出门小打野刀，合攻速鞋，直接小吸血（前中期续航不用大吸血）做二级野刀。然后陨星，合黑切</p>
+      <p>顺风：做吸血刀，破军，名刀，碎星锤或名刀（看对面阵容选择）</p>
+      <P>逆风：做破军（高伤害，且逆风不需要什么续航，一套就走）再合吸血刀，最后名刀或者碎星锤</P>
+    </div>
+    <div class="card">
+      <h2>曜攻略</h2>
+      <h5>铭文:6隱匿 4調和 10鷹眼 9異變 1禍源</h5>
+      <a target="_blank" href="wangzhe/yao.jpg">
+        <img src="wangzhe/yao.jpg" style="height:200px;"></a>
+      <p>邊路/打野玩法思路</p>
+      <p>邊路:曜带惩戒走边，不仅能够掌控中立河蟹还可以抢夺野区资源压制敌方打野节奏，曜四级前并不强势往往需通过走位躲避伤害后再回身反打。</p>
+      <p>打野:曜打野通常选择蓝开通过技能冷却提升刷野效率且以一格能量起手,若被反野,必須控制好自身能量來進行反打</p>
+    </div>
+  </div>
+</div>
+
+
+<div class="Next Page">
+    <a href="website02.html">下一頁</a>
+</div>
+</body>
+</html>
